@@ -1,0 +1,12 @@
+html, body {
+	overflow:auto !important;
+}
+*[data-removed]{
+	display:none !important;
+	visibility:hidden !important;
+	opacity:0 !important;
+	position:absolute !important;
+	z-index:-1 !important;
+	left:-1000vw !important;
+	top:-1000vh !important;
+}
